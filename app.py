@@ -1,9 +1,9 @@
 import pandas as pd
 import csv
 df=pd.read_csv('final3.csv')
-print(df.shape)
+
 del df['hyperlink']
-print(df.shape)
+
 del df['temp_planet_data']
 del df['temp_planet_mass']
 del df['pl_letter']
